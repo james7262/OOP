@@ -45,7 +45,7 @@ public class UndergradStudent extends student implements Major{
 
     @Override
     public String greeting() {
-        return super.greeting() + "My major is " + major 
+        return super.greeting() + " My major is " + major 
         + " and I have earned " + creditsEarned + " credits.";
     }
 
